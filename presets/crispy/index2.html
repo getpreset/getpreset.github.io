@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/YONAS.png" type="image/x-icon">
+    <title>Get Preset</title>
+    <style>
+         body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        #countdownText {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #0b65aa;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: none; /* Hidden initially */
+        }
+
+        .btn:hover {
+            background-color: #2e80b6;
+        }
+    </style>
+
+<script type='text/javascript' src='//admonishmentfastest.com/74/fa/fe/74fafeb3ff6bbd1831d86745ce61d66a.js'></script>
+</head>
+<body>
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '0e5af0ee4f06eb8426960f4243f63ba7',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//admonishmentfastest.com/0e5af0ee4f06eb8426960f4243f63ba7/invoke.js"></script>
+
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '2b776127c427a227f507151d0d36e6ed',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//admonishmentfastest.com/2b776127c427a227f507151d0d36e6ed/invoke.js"></script>
+
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '7356185a270954c8c1486ae3944deb16',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//admonishmentfastest.com/7356185a270954c8c1486ae3944deb16/invoke.js"></script>
+
+
+    <div style="position: absolute; bottom: 0; right: 0;">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'a49c09b9449d99efab74ecbacc9f8bf9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//admonishmentfastest.com/a49c09b9449d99efab74ecbacc9f8bf9/invoke.js"></script>
+
+</div>
+
+
+    <div class="container">
+        <h2>Final Step</h2>
+        <h2>Preparing the Preset Link...</h2>
+        <p id="countdownText">Wait <span id="countdown">50</span> seconds</p>
+        <a href="https://www.bandlab.com/effect-presets/f51ead262b80ea11a94c0003ffd19c0f-5319c154ea8b490092e7c2b8b61bb45d-cd88c37bbcd0467983ffbf3e1563ec8d-user" class="btn" id="presetButton">Get</a>
+    </div>
+
+    <script>
+        let timeLeft = 50;
+        let countdownElement = document.getElementById("countdown");
+        let countdownText = document.getElementById("countdownText");
+        let presetButton = document.getElementById("presetButton");
+
+        let timer = setInterval(() => {
+            timeLeft--;
+            if (timeLeft >= 0) {
+                countdownElement.textContent = timeLeft;
+            }
+
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                countdownText.style.display = "none"; // Hide countdown text
+                presetButton.style.display = "inline-block"; // Show button
+            }
+        }, 1000);
+    </script>
+
+<script type='text/javascript' src='//admonishmentfastest.com/3f/39/68/3f3968c90d5e71c7f2ebb6861907564a.js'></script>
+</body>
+</html>
